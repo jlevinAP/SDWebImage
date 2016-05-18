@@ -51,7 +51,7 @@ typedef void(^SDWebImagePrefetcherCompletionBlock)(NSUInteger noOfFinishedUrls, 
 /**
  * Maximum number of URLs to prefetch at the same time. Defaults to 3.
  */
-@property (nonatomic, assign) NSUInteger maxConcurrentDownloads;
+@property (nonatomic, assign) NSInteger maxConcurrentDownloads;
 
 /**
  * SDWebImageOptions for prefetcher. Defaults to SDWebImageLowPriority.

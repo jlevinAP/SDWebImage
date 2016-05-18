@@ -50,7 +50,7 @@
     self.manager.imageDownloader.maxConcurrentDownloads = maxConcurrentDownloads;
 }
 
-- (NSUInteger)maxConcurrentDownloads {
+- (NSInteger)maxConcurrentDownloads {
     return self.manager.imageDownloader.maxConcurrentDownloads;
 }
 
